@@ -20,7 +20,7 @@ The method that has been implemented in this solver is using 'suspects' for a gi
 - The elements present in the set {1, 2, 3, ..., 9} (i.e. all possible values that any grid square can take) but not in the delete set are taken to be the 'suspects' for that square, i.e. the possible values it can take.
 - After the suspects for every single square in the current grid are identified, the squares with only one suspect are filled with their respective suspects.
 - This yields a new, simplified sudoku grid.
-- These steps are repeated till the enntire sudoku is solved.
+- These steps are repeated till the entire sudoku is solved.
 """
 
 def initialise_suspects():
@@ -98,7 +98,7 @@ def fill_suspects():
         suspects[element] = {'1', '2', '3', '4', '5', '6', '7', '8', '9'} - delete_set
 
 def fill_one_suspect_elements():
-    # fill_one_suspect_elements() adds to the sudoku the values for the blank squares having only suspect.
+    # fill_one_suspect_elements() adds to the sudoku the values for the blank squares having only one suspect.
     for element in suspects:
         if len(suspects[element]) == 1:
             sudoku[tuple(element)[0]][tuple(element)[1]] = list(suspects[element])[0]
