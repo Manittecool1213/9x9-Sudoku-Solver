@@ -1,4 +1,4 @@
-<h3 align = "center">9x9 Sudoku Solver</h3>
+<h1 align = "center">9x9 Sudoku Solver</h1>
 
 
 <!-- TABLE OF CONTENTS -->
@@ -62,6 +62,12 @@ Project Link: [https://github.com/Manittecool1213/9x9-Sudoku-Solver](https://git
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
+<!-- ACKNOWLEDGEMENTS -->
+## Acknowledgements
+* [othneildrew's README Template (I might not have had a README at all if it were not for this)](https://github.com/othneildrew/Best-README-Template)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- MARKDOWN LINKS -->
-[Python]: https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54
+[Python.org]: https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54
 [Python-url]: https://www.python.org/
